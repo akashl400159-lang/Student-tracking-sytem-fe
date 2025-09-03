@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Sidebar from "../components/Student_Sidebar";
+import Sidebar from "../components/sidebars/Student_Sidebar";
 import { FaBook, FaClipboardList, FaCalendarAlt, FaChartLine } from "react-icons/fa";
 
 const StudentDashboard = ({ user }) => {

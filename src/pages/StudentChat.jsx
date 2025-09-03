@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { MessageSquare, Send, Users, Search, Filter, Phone, Video, MoreVertical, File, Image, Smile } from "lucide-react"
 import { toast } from "sonner";
 
-import Sidebar from "../components/Student_Sidebar"
+import Sidebar from "../components/sidebars/Student_Sidebar"
 
 export default function ChatRoom({ userRole, userName, userId }) {
   const [chatRooms, setChatRooms] = useState([])

@@ -16,7 +16,7 @@ import AdminDashboard from './pages/AdminDashboard';
 import authService from './services/authService';
 import RecommendationPage from './components/AIRecommondation';
 import StudentProfile from './pages/StudentProfile';
-import Sidebar from './components/Student_Sidebar';
+import Sidebar from './components/sidebars/Student_Sidebar';
 import ClassScheduleApp from './pages/StudentTimeTable';
 import ChatRoom from './pages/StudentChat';
 import { AssignmentSystem } from './pages/StudentAssigmentSystem';
@@ -26,6 +26,8 @@ import AdminUserManagement from './pages/AdminUserManage';
 import Landing from './components/Landing';
 import StudentDemo from './pages/StudentDemo';
 import InstitutionOnboarding from './pages/Institution_Onboard';
+import EnhancedParentProfile from './pages/ParentProfile';
+import { FeeDetails } from './pages/ParentFee';
 function App() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -60,17 +62,17 @@ function App() {
         {user && <Navbar user={user} onLogout={handleLogout} />}
 
         <Routes>
-          
+
           <Route
             path="/"
-            
-            element={<Landing/>}
+
+            element={<Landing />}
           />
           <Route
             path="/onBoard"
-            element={<InstitutionOnboarding/>}
+            element={<InstitutionOnboarding />}
           />
-          
+
           <Route
             path="/login"
             element={!user ? <Login onLogin={handleLogin} /> : <Navigate to="/dashboard" />}
@@ -85,6 +87,12 @@ function App() {
           <Route
             path="/timetable"
             element={user ? <ClassScheduleApp user={user} /> : <Navigate to="/login" />} />
+          <Route
+            path="/parent_Profile"
+            element={user ? <EnhancedParentProfile user={user} /> : <Navigate to="/login" />} />
+          <Route
+            path="/fees"
+            element={user ? <FeeDetails/> : <Navigate to="/login" />} />
           <Route
             path="/student_Profile"
             element={user ? <StudentProfile user={user} /> : <Navigate to="/login" />} />

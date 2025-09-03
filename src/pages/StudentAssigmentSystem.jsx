@@ -13,7 +13,7 @@ import {
   Users
 } from "lucide-react"
 import { toast } from "sonner"
-import Sidebar from "../components/Student_Sidebar"
+import Sidebar from "../components/sidebars/Student_Sidebar"
 
 // Date formatter
 const formatDate = (date) => {

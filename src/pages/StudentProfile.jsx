@@ -13,7 +13,7 @@ import {
   Camera,
   UserCircle
 } from "lucide-react"
-import Sidebar from "../components/Student_Sidebar"
+import Sidebar from "../components/sidebars/Student_Sidebar"
 
 export default function StudentProfile({ user }) {
   const [isEditing, setIsEditing] = useState(false)

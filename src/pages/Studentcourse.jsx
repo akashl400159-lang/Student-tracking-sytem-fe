@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { BookOpen, Users, Clock, Calendar, TrendingUp, Search, Filter, Plus, Edit, BarChart3, Award } from "lucide-react"
-import Sidebar from "../components/Student_Sidebar"
+import Sidebar from "../components/sidebars/Student_Sidebar"
 
 export function CoursesManager() {
   const [courses, setCourses] = useState([

@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import studentService from "../services/studentService";
-import AdminSidebar from "./Admin_Sidebar";
+import AdminSidebar from "../components/sidebars/Admin_Sidebar";
 
 // Mock API call (replace with Django backend API later)
 const fetchData = (type) => {

@@ -14,7 +14,7 @@ import {
   AlertTriangle,
   Phone
 } from "lucide-react";
-import ParentSidebar from "./Parent_sidebar";
+import ParentSidebar from "../components/sidebars/Parent_sidebar";
 
 export default function ParentDashboard({ user, onLogout }) {
   // Mock data for parent dashboard

@@ -6,7 +6,7 @@ import { Lightbulb, AlertCircle, Loader2, Globe, TrendingUp } from "lucide-react
 // local components
 import Questionnaire from "../components/Questionnaire";
 import EnhancedRecommendationResults from "../components/EnhancedRecommendationResults";
-import Sidebar from "./Student_Sidebar";
+import Sidebar from "./sidebars/Student_Sidebar";
 
 // ✅ Simple Card component
 function Card({ children, className }) {

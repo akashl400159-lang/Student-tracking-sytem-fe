@@ -11,6 +11,8 @@ import {
   FaComments,
   FaCalendarAlt,
   FaBars,
+  FaTable,
+  FaUser,
 } from "react-icons/fa";
 
 export default function ParentSidebar() {
@@ -19,14 +21,16 @@ export default function ParentSidebar() {
 
   const menuItems = [
     { name: "Dashboard", icon: <FaTachometerAlt />, link: "/dashboard" },
-    { name: "Child Profile", icon: <FaUserGraduate />, link: "/parent/child-profile" },
-    { name: "Courses", icon: <FaBook />, link: "/parent/courses" },
-    { name: "Attendance", icon: <FaClipboardList />, link: "/parent/attendance" },
-    { name: "Fees & Payments", icon: <FaMoneyBillWave />, link: "/parent/fees" },
-    { name: "Performance Reports", icon: <FaChartLine />, link: "/parent/performance" },
-    { name: "Notifications", icon: <FaBell />, link: "/parent/notifications" },
-    { name: "Messages", icon: <FaComments />, link: "/parent/messages" },
-    { name: "Calendar & Events", icon: <FaCalendarAlt />, link: "/parent/calendar" },
+    { name: "Profile", icon: <FaUser />, link: "/parent_Profile" },
+    //{ name: "Courses", icon: <FaBook />, link: "/parent/courses" },
+    //{ name: "Attendance", icon: <FaClipboardList />, link: "#" },
+    { name: "Fees & Payments", icon: <FaMoneyBillWave />, link: "/fees" },
+    //{ name: "Performance Reports", icon: <FaChartLine />, link: "" },
+    //{ name: "Notifications", icon: <FaBell />, link: "" },
+    { name: "Chat and Communication", icon: <FaComments />, link: "" },
+    //{ name: "Calendar & Events", icon: <FaCalendarAlt />, link: "" },
+    { name: "Time Tabale", icon: <FaTable />, link: "" },
+    
   ];
 
   return (

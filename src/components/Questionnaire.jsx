@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Rocket, Lightbulb, Target, TrendingUp, Globe, BookOpen, Clock, Heart, Briefcase, Users, Star } from 'lucide-react';
-import Sidebar from './Student_Sidebar';
+import Sidebar from './sidebars/Student_Sidebar';
 
 // Pre-defined subject and career field lists
 const subjects = [

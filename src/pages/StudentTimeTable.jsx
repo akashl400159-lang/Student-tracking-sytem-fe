@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Sidebar from "../components/Student_Sidebar";
+import Sidebar from "../components/sidebars/Student_Sidebar";
 import { motion } from "framer-motion";
 
 const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday","Friday","saturday"];

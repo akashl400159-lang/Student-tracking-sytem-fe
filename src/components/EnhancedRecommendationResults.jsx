@@ -14,7 +14,7 @@ import {
   Award,
   Briefcase
 } from 'lucide-react';
-import Sidebar from './Student_Sidebar';
+import Sidebar from './sidebars/Student_Sidebar';
 
 export default function EnhancedRecommendationResults({ recommendations }) {
   const [activeTab, setActiveTab] = useState("courses");

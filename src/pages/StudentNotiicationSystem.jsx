@@ -9,7 +9,7 @@ import {
   CheckCircle,
   Search,
 } from "lucide-react"
-import Sidebar from "../components/Student_Sidebar"
+import Sidebar from "../components/sidebars/Student_Sidebar"
 
 export function NotificationSystem({
   userRole,

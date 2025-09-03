@@ -13,7 +13,7 @@ import {
   CheckCircle,
   Clock,
 } from "lucide-react";
-import AdminSidebar from "./Admin_Sidebar";
+import AdminSidebar from "../components/sidebars/Admin_Sidebar";
 
 
 export default function AdminDashboard({ user, onLogout }) {

@@ -1,7 +1,7 @@
 // src/pages/StudentDashboard.jsx
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Sidebar from "../components/Student_Sidebar";
+import Sidebar from "../components/sidebars/Student_Sidebar";
 import { FaBook, FaClipboardList, FaCalendarAlt, FaChartLine } from "react-icons/fa";
 
 const StudentDemo = ({ user }) => {
